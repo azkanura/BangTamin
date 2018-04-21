@@ -11,7 +11,7 @@
     "npm":  "1.2.x"
   },
   "scripts": {
-    "postinstall":"dpd keygen && dpd showkey",
+    "postinstall":"npm install deployd@latest --save && npm install deployd-cli -g && npm install deployd-cli --save && npm install dpd-dashboard && npm install dpd-clientlib && npm install dpd-dashboard && dpd keygen && dpd showkey",
     "start": "node server"
   },
   "dependencies": {
