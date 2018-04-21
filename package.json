@@ -11,6 +11,7 @@
     "npm":  "1.2.x"
   },
   "scripts": {
+    "postinstall":"dpd keygen && dpd showkey",
     "start": "node server"
   },
   "dependencies": {
