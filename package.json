@@ -7,7 +7,7 @@
   "author": "Azka Nurun Ala",
   "contributors": [],
   "engines": {
-    "node": ">= 4.0",
+    "node": "4.0.x",
     "npm":  "1.2.x"
   },
   "scripts": {
