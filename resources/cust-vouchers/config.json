@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"customerId": {
+			"name": "customerId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "customerId",
+			"order": 0
+		},
+		"voucherId": {
+			"name": "voucherId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "voucherId",
+			"order": 1
+		}
+	}
+}

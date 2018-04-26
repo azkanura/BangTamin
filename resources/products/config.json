@@ -24,6 +24,22 @@
 			"required": false,
 			"id": "desc",
 			"order": 2
+		},
+		"image": {
+			"name": "image",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image",
+			"order": 3
+		},
+		"category": {
+			"name": "category",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "category",
+			"order": 4
 		}
 	}
 }

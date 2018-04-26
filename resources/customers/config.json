@@ -1,3 +1,45 @@
 {
-	"type": "UserCollection"
+	"type": "UserCollection",
+	"properties": {
+		"card": {
+			"name": "card",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "card",
+			"order": 5
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "email",
+			"order": 1
+		},
+		"phone": {
+			"name": "phone",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "phone",
+			"order": 2
+		},
+		"birthdate": {
+			"name": "birthdate",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "birthdate",
+			"order": 3
+		},
+		"gender": {
+			"name": "gender",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "gender",
+			"order": 4
+		}
+	}
 }

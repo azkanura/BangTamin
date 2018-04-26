@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userId",
+			"order": 0
+		},
+		"state": {
+			"name": "state",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "state",
+			"order": 1
+		},
+		"value": {
+			"name": "value",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "value",
+			"order": 2
+		}
+	}
+}
